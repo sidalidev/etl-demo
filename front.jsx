@@ -65,7 +65,7 @@ function App() {
                 className="bar"
                 style={{
                   width: `${(count / stats.totalArticles) * 100}%`,
-                  backgroundColor: getCategoryColor(category)
+                  backgroundColor: getCategoryColor(category),
                 }}
               >
                 {count}
@@ -78,23 +78,23 @@ function App() {
       <div className="articles-section">
         <h2>Articles Récents</h2>
         <div className="articles-grid">
-          {articles.map(article => (
+          {articles.map((article) => (
             <div
               key={article.id}
-              className={`article-card ${article.is_tech ? 'tech-article' : ''}`}
+              className={`article-card ${
+                article.is_tech ? 'tech-article' : ''
+              }`}
             >
               <div className="article-meta">
                 <span className={`category-tag ${article.category}`}>
                   {article.category}
                 </span>
-                <span className="word-count">
-                  {article.word_count} mots
-                </span>
+                <span className="word-count">{article.word_count} mots</span>
               </div>
               <h3>{article.title}</h3>
               <p className="domain">{article.domain}</p>
               <a href={article.url} target="_blank" rel="noopener noreferrer">
-                Lire l'article
+                Lire l&apos;article
               </a>
             </div>
           ))}
