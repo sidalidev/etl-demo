@@ -1,212 +1,321 @@
 [
   {
-    "id": "42440922",
-    "title": "developing developers (2015)",
-    "url": "https://felleisen.org/matthias/Thoughts/Developing_Developers.html",
-    "domain": "felleisen.org",
-    "processed_at": "2024-12-19T14:07:58.895178"
-  },
-  {
-    "id": "42454359",
-    "title": "solaar is a linux manager for many logitech keyboards, mice, and other devices",
-    "url": "https://github.com/pwr-Solaar/Solaar",
-    "domain": "github.com",
-    "processed_at": "2024-12-19T14:07:58.895191"
-  },
-  {
     "id": "42425770",
     "title": "kowloon walled city: heterotopia in a space of disappearance (2013)",
     "url": "https://mascontext.com/issues/trace/kowloon-walled-city-heterotopia-in-a-space-of-disappearance",
     "domain": "mascontext.com",
-    "processed_at": "2024-12-19T14:07:58.895198"
+    "word_count": 10,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 67,
+    "category": "other",
+    "is_tech": false
   },
   {
     "id": "42441502",
     "title": "blackmagic debuts $30k 3d camera for capturing video for vision pro",
     "url": "https://www.macrumors.com/2024/12/16/black-magic-3d-vision-pro-camera/",
     "domain": "www.macrumors.com",
-    "processed_at": "2024-12-19T14:07:58.895204"
+    "word_count": 11,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 67,
+    "category": "other",
+    "is_tech": false
+  },
+  {
+    "id": "42454359",
+    "title": "solaar is a linux manager for many logitech keyboards, mice, and other devices",
+    "url": "https://github.com/pwr-Solaar/Solaar",
+    "domain": "github.com",
+    "word_count": 13,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 78,
+    "category": "tech",
+    "is_tech": false
+  },
+  {
+    "id": "42440922",
+    "title": "developing developers (2015)",
+    "url": "https://felleisen.org/matthias/Thoughts/Developing_Developers.html",
+    "domain": "felleisen.org",
+    "word_count": 3,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 28,
+    "category": "other",
+    "is_tech": false
   },
   {
     "id": "42457782",
     "title": "show hn: postgres as a vectordb gui",
     "url": "https://github.com/Z-Gort/Reservoirs-Lab",
     "domain": "github.com",
-    "processed_at": "2024-12-19T14:07:58.895210"
+    "word_count": 7,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 35,
+    "category": "tech",
+    "is_tech": false
   },
   {
     "id": "42457816",
     "title": "firenvim \u2013 turn the browser into a neovim client",
     "url": "https://github.com/glacambre/firenvim",
     "domain": "github.com",
-    "processed_at": "2024-12-19T14:07:58.895219"
+    "word_count": 9,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 48,
+    "category": "tech",
+    "is_tech": false
   },
   {
     "id": "42457321",
     "title": "piccolo os, a small multitasking os for the raspberry pi pico",
     "url": "https://github.com/garyexplains/piccolo_os_v1",
     "domain": "github.com",
-    "processed_at": "2024-12-19T14:07:58.895224"
+    "word_count": 11,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 61,
+    "category": "tech",
+    "is_tech": false
   },
   {
     "id": "42435620",
     "title": "borrow checking, rc, gc, and eleven other memory safety approaches",
     "url": "https://verdagon.dev/grimoire/grimoire#",
     "domain": "verdagon.dev",
-    "processed_at": "2024-12-19T14:07:58.895230"
-  },
-  {
-    "id": "42458599",
-    "title": "markov keyboard: keyboard layout that changes by markov frequency (2019)",
-    "url": "https://github.com/shapr/markovkeyboard",
-    "domain": "github.com",
-    "processed_at": "2024-12-19T14:07:58.895235"
+    "word_count": 10,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 66,
+    "category": "other",
+    "is_tech": false
   },
   {
     "id": "42442354",
     "title": "iso 8583: the language of credit cards",
     "url": "https://increase.com/articles/iso-8583-the-language-of-credit-cards",
     "domain": "increase.com",
-    "processed_at": "2024-12-19T14:07:58.895240"
+    "word_count": 7,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 38,
+    "category": "other",
+    "is_tech": false
   },
   {
-    "id": "42456585",
-    "title": "self-sorting arrays reveal unexpected competencies in minimal intelligence",
-    "url": "https://arxiv.org/abs/2401.05375",
-    "domain": "arxiv.org",
-    "processed_at": "2024-12-19T14:07:58.895245"
+    "id": "42458599",
+    "title": "markov keyboard: keyboard layout that changes by markov frequency (2019)",
+    "url": "https://github.com/shapr/markovkeyboard",
+    "domain": "github.com",
+    "word_count": 10,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 72,
+    "category": "tech",
+    "is_tech": false
   },
   {
     "id": "42421689",
     "title": "our brains create mental \"chapters\" with new event segmentation study",
     "url": "https://www.psypost.org/scientists-sheds-light-on-how-our-brains-create-mental-chapters-with-new-event-segmentation-study/",
     "domain": "www.psypost.org",
-    "processed_at": "2024-12-19T14:07:58.895250"
+    "word_count": 10,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 69,
+    "category": "other",
+    "is_tech": false
+  },
+  {
+    "id": "42456585",
+    "title": "self-sorting arrays reveal unexpected competencies in minimal intelligence",
+    "url": "https://arxiv.org/abs/2401.05375",
+    "domain": "arxiv.org",
+    "word_count": 8,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 74,
+    "category": "other",
+    "is_tech": false
   },
   {
     "id": "42457712",
     "title": "exposing the clearingstelle urheberrecht im internet (cuii)",
     "url": "https://damcraft.de/blog/exposing-the-cuii",
     "domain": "damcraft.de",
-    "processed_at": "2024-12-19T14:07:58.895255"
-  },
-  {
-    "id": "42456310",
-    "title": "the ram myth",
-    "url": "https://purplesyringa.moe/blog/the-ram-myth/",
-    "domain": "purplesyringa.moe",
-    "processed_at": "2024-12-19T14:07:58.895260"
-  },
-  {
-    "id": "42432374",
-    "title": "apple watch with android",
-    "url": "https://abishekmuthian.com/apple-watch-with-android/",
-    "domain": "abishekmuthian.com",
-    "processed_at": "2024-12-19T14:07:58.895265"
+    "word_count": 7,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 59,
+    "category": "other",
+    "is_tech": false
   },
   {
     "id": "42457213",
     "title": "genesis \u2013 a generative physics engine for general-purpose robotics",
     "url": "https://genesis-world.readthedocs.io/en/latest/",
     "domain": "genesis-world.readthedocs.io",
-    "processed_at": "2024-12-19T14:07:58.895270"
+    "word_count": 9,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 66,
+    "category": "other",
+    "is_tech": false
+  },
+  {
+    "id": "42456310",
+    "title": "the ram myth",
+    "url": "https://purplesyringa.moe/blog/the-ram-myth/",
+    "domain": "purplesyringa.moe",
+    "word_count": 3,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 12,
+    "category": "other",
+    "is_tech": false
+  },
+  {
+    "id": "42432374",
+    "title": "apple watch with android",
+    "url": "https://abishekmuthian.com/apple-watch-with-android/",
+    "domain": "abishekmuthian.com",
+    "word_count": 4,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 24,
+    "category": "other",
+    "is_tech": false
   },
   {
     "id": "42444817",
     "title": "in defense of y'all",
     "url": "https://www.texasmonthly.com/being-texan/in-defense-of-yall-nyt-columnist/",
     "domain": "www.texasmonthly.com",
-    "processed_at": "2024-12-19T14:07:58.895275"
+    "word_count": 4,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 19,
+    "category": "other",
+    "is_tech": false
   },
   {
     "id": "42457515",
     "title": "error stacking in rust",
     "url": "https://greptime.com/blogs/2024-05-07-error-rust",
     "domain": "greptime.com",
-    "processed_at": "2024-12-19T14:07:58.895280"
-  },
-  {
-    "id": "42451707",
-    "title": "launch hn: innate (yc f24) \u2013 home robots as easy to program as ai agents",
-    "url": "https://news.ycombinator.com/item?id=42451707",
-    "domain": "news.ycombinator.com",
-    "processed_at": "2024-12-19T14:07:58.895286"
-  },
-  {
-    "id": "42450413",
-    "title": "updates to h-1b",
-    "url": "https://www.uscis.gov/newsroom/news-releases/dhs-strengthens-h-1b-program-allowing-us-employers-to-more-quickly-fill-critical-jobs",
-    "domain": "www.uscis.gov",
-    "processed_at": "2024-12-19T14:07:58.895691"
-  },
-  {
-    "id": "42458431",
-    "title": "amazon workers to strike at multiple us warehouses during busy holiday season",
-    "url": "https://www.reuters.com/technology/amazon-workers-strike-multiple-us-warehouses-during-busy-holiday-season-2024-12-19/",
-    "domain": "www.reuters.com",
-    "processed_at": "2024-12-19T14:07:58.895703"
+    "word_count": 4,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 22,
+    "category": "other",
+    "is_tech": false
   },
   {
     "id": "42458752",
     "title": "alignment faking in large language models",
     "url": "https://www.anthropic.com/research/alignment-faking",
     "domain": "www.anthropic.com",
-    "processed_at": "2024-12-19T14:07:58.895708"
+    "word_count": 6,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 41,
+    "category": "other",
+    "is_tech": false
   },
   {
-    "id": "42460899",
-    "title": "the longest straight line in great britain (without crossing a public road)",
-    "url": "http://www.statsmapsnpix.com/2023/04/the-longest-straight-line-in-great.html",
-    "domain": "www.statsmapsnpix.com",
-    "processed_at": "2024-12-19T14:07:58.895713"
+    "id": "42451707",
+    "title": "launch hn: innate (yc f24) \u2013 home robots as easy to program as ai agents",
+    "url": "https://news.ycombinator.com/item?id=42451707",
+    "domain": "news.ycombinator.com",
+    "word_count": 15,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 72,
+    "category": "other",
+    "is_tech": false
   },
   {
-    "id": "42443229",
-    "title": "moon",
-    "url": "https://ciechanow.ski/moon/",
-    "domain": "ciechanow.ski",
-    "processed_at": "2024-12-19T14:07:58.895718"
+    "id": "42450413",
+    "title": "updates to h-1b",
+    "url": "https://www.uscis.gov/newsroom/news-releases/dhs-strengthens-h-1b-program-allowing-us-employers-to-more-quickly-fill-critical-jobs",
+    "domain": "www.uscis.gov",
+    "word_count": 3,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 15,
+    "category": "other",
+    "is_tech": false
+  },
+  {
+    "id": "42458431",
+    "title": "amazon workers to strike at multiple us warehouses during busy holiday season",
+    "url": "https://www.reuters.com/technology/amazon-workers-strike-multiple-us-warehouses-during-busy-holiday-season-2024-12-19/",
+    "domain": "www.reuters.com",
+    "word_count": 12,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 77,
+    "category": "other",
+    "is_tech": false
   },
   {
     "id": "42438063",
     "title": "torpedo juice: legendary, illegal wwii liquor drunk in alaska and the world",
     "url": "https://www.adn.com/alaska-life/2024/12/15/torpedo-juice-the-legendary-illegal-world-war-ii-liquor-drunk-in-alaska-and-across-the-world/",
     "domain": "www.adn.com",
-    "processed_at": "2024-12-19T14:07:58.895723"
-  },
-  {
-    "id": "42457182",
-    "title": "half my life with perl",
-    "url": "https://perladvent.org/2024/2024-12-19.html",
-    "domain": "perladvent.org",
-    "processed_at": "2024-12-19T14:07:58.895728"
-  },
-  {
-    "id": "42456707",
-    "title": "embedding lua in sqleibniz with rust",
-    "url": "https://xnacly.me/posts/2024/embed-lua-in-rust/",
-    "domain": "xnacly.me",
-    "processed_at": "2024-12-19T14:07:58.895733"
-  },
-  {
-    "id": "42449102",
-    "title": "analyzing the world chess championship 2024: empirical synthesized approach",
-    "url": "https://medium.com/@maxamel2002/2024-world-chess-championship-analysis-empirical-synthesized-approach-98dd79920d2b",
-    "domain": "medium.com",
-    "processed_at": "2024-12-19T14:07:58.895756"
+    "word_count": 12,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 75,
+    "category": "other",
+    "is_tech": false
   },
   {
     "id": "42449647",
     "title": "khalid sheldrake: the east dulwich man who would be king",
     "url": "https://www.nationalarchives.gov.uk/20s-people/20sstreets/khalid-sheldrake-the-east-dulwich-man-who-would-be-king/",
     "domain": "www.nationalarchives.gov.uk",
-    "processed_at": "2024-12-19T14:07:58.895762"
+    "word_count": 10,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 56,
+    "category": "other",
+    "is_tech": false
   },
   {
-    "id": "42457436",
-    "title": "there's no such thing as software productivity (2012)",
-    "url": "https://www.benrady.com/2012/11/theres-no-such-thing-as-software-productivity.html",
-    "domain": "www.benrady.com",
-    "processed_at": "2024-12-19T14:07:58.895767"
+    "id": "42457182",
+    "title": "half my life with perl",
+    "url": "https://perladvent.org/2024/2024-12-19.html",
+    "domain": "perladvent.org",
+    "word_count": 5,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 22,
+    "category": "other",
+    "is_tech": false
+  },
+  {
+    "id": "42449102",
+    "title": "analyzing the world chess championship 2024: empirical synthesized approach",
+    "url": "https://medium.com/@maxamel2002/2024-world-chess-championship-analysis-empirical-synthesized-approach-98dd79920d2b",
+    "domain": "medium.com",
+    "word_count": 9,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 75,
+    "category": "blog",
+    "is_tech": false
+  },
+  {
+    "id": "42456707",
+    "title": "embedding lua in sqleibniz with rust",
+    "url": "https://xnacly.me/posts/2024/embed-lua-in-rust/",
+    "domain": "xnacly.me",
+    "word_count": 6,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 36,
+    "category": "other",
+    "is_tech": false
+  },
+  {
+    "id": "42460899",
+    "title": "the longest straight line in great britain (without crossing a public road)",
+    "url": "http://www.statsmapsnpix.com/2023/04/the-longest-straight-line-in-great.html",
+    "domain": "www.statsmapsnpix.com",
+    "word_count": 12,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 75,
+    "category": "other",
+    "is_tech": false
+  },
+  {
+    "id": "42454405",
+    "title": "windshield pitting incidents in washington reach fever pitch on april 15, 1954 (2003)",
+    "url": "https://www.historylink.org/File/5136",
+    "domain": "www.historylink.org",
+    "word_count": 13,
+    "processed_at": "2024-12-19T14:46:11.558251",
+    "title_length": 85,
+    "category": "other",
+    "is_tech": false
   }
 ]

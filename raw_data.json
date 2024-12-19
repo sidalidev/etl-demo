@@ -1,15 +1,5 @@
 [
   {
-    "id": "42440922",
-    "title": "Developing Developers (2015)",
-    "url": "https://felleisen.org/matthias/Thoughts/Developing_Developers.html"
-  },
-  {
-    "id": "42454359",
-    "title": "Solaar is a Linux manager for many Logitech keyboards, mice, and other devices",
-    "url": "https://github.com/pwr-Solaar/Solaar"
-  },
-  {
     "id": "42425770",
     "title": "Kowloon Walled City: Heterotopia in a Space of Disappearance (2013)",
     "url": "https://mascontext.com/issues/trace/kowloon-walled-city-heterotopia-in-a-space-of-disappearance"
@@ -18,6 +8,16 @@
     "id": "42441502",
     "title": "Blackmagic Debuts $30K 3D Camera for Capturing Video for Vision Pro",
     "url": "https://www.macrumors.com/2024/12/16/black-magic-3d-vision-pro-camera/"
+  },
+  {
+    "id": "42454359",
+    "title": "Solaar is a Linux manager for many Logitech keyboards, mice, and other devices",
+    "url": "https://github.com/pwr-Solaar/Solaar"
+  },
+  {
+    "id": "42440922",
+    "title": "Developing Developers (2015)",
+    "url": "https://felleisen.org/matthias/Thoughts/Developing_Developers.html"
   },
   {
     "id": "42457782",
@@ -40,19 +40,14 @@
     "url": "https://verdagon.dev/grimoire/grimoire#"
   },
   {
-    "id": "42458599",
-    "title": "Markov Keyboard: keyboard layout that changes by Markov frequency (2019)",
-    "url": "https://github.com/shapr/markovkeyboard"
-  },
-  {
     "id": "42442354",
     "title": "ISO 8583: The language of credit cards",
     "url": "https://increase.com/articles/iso-8583-the-language-of-credit-cards"
   },
   {
-    "id": "42456585",
-    "title": "Self-sorting arrays reveal unexpected competencies in minimal intelligence",
-    "url": "https://arxiv.org/abs/2401.05375"
+    "id": "42458599",
+    "title": "Markov Keyboard: keyboard layout that changes by Markov frequency (2019)",
+    "url": "https://github.com/shapr/markovkeyboard"
   },
   {
     "id": "42421689",
@@ -60,9 +55,19 @@
     "url": "https://www.psypost.org/scientists-sheds-light-on-how-our-brains-create-mental-chapters-with-new-event-segmentation-study/"
   },
   {
+    "id": "42456585",
+    "title": "Self-sorting arrays reveal unexpected competencies in minimal intelligence",
+    "url": "https://arxiv.org/abs/2401.05375"
+  },
+  {
     "id": "42457712",
     "title": "Exposing the Clearingstelle Urheberrecht Im Internet (CUII)",
     "url": "https://damcraft.de/blog/exposing-the-cuii"
+  },
+  {
+    "id": "42457213",
+    "title": "Genesis – a generative physics engine for general-purpose robotics",
+    "url": "https://genesis-world.readthedocs.io/en/latest/"
   },
   {
     "id": "42456310",
@@ -75,11 +80,6 @@
     "url": "https://abishekmuthian.com/apple-watch-with-android/"
   },
   {
-    "id": "42457213",
-    "title": "Genesis – a generative physics engine for general-purpose robotics",
-    "url": "https://genesis-world.readthedocs.io/en/latest/"
-  },
-  {
     "id": "42444817",
     "title": "In Defense of Y'All",
     "url": "https://www.texasmonthly.com/being-texan/in-defense-of-yall-nyt-columnist/"
@@ -88,6 +88,11 @@
     "id": "42457515",
     "title": "Error Stacking in Rust",
     "url": "https://greptime.com/blogs/2024-05-07-error-rust"
+  },
+  {
+    "id": "42458752",
+    "title": "Alignment faking in large language models",
+    "url": "https://www.anthropic.com/research/alignment-faking"
   },
   {
     "id": "42451707",
@@ -105,16 +110,6 @@
     "url": "https://www.reuters.com/technology/amazon-workers-strike-multiple-us-warehouses-during-busy-holiday-season-2024-12-19/"
   },
   {
-    "id": "42458752",
-    "title": "Alignment faking in large language models",
-    "url": "https://www.anthropic.com/research/alignment-faking"
-  },
-  {
-    "id": "42460899",
-    "title": "The longest straight line in Great Britain (without crossing a public road)",
-    "url": "http://www.statsmapsnpix.com/2023/04/the-longest-straight-line-in-great.html"
-  },
-  {
     "id": "42443229",
     "title": "Moon",
     "url": "https://ciechanow.ski/moon/"
@@ -125,14 +120,14 @@
     "url": "https://www.adn.com/alaska-life/2024/12/15/torpedo-juice-the-legendary-illegal-world-war-ii-liquor-drunk-in-alaska-and-across-the-world/"
   },
   {
+    "id": "42449647",
+    "title": "Khalid Sheldrake: The East Dulwich man who would be King",
+    "url": "https://www.nationalarchives.gov.uk/20s-people/20sstreets/khalid-sheldrake-the-east-dulwich-man-who-would-be-king/"
+  },
+  {
     "id": "42457182",
     "title": "Half My Life with Perl",
     "url": "https://perladvent.org/2024/2024-12-19.html"
-  },
-  {
-    "id": "42456707",
-    "title": "Embedding Lua in Sqleibniz with Rust",
-    "url": "https://xnacly.me/posts/2024/embed-lua-in-rust/"
   },
   {
     "id": "42449102",
@@ -140,13 +135,18 @@
     "url": "https://medium.com/@maxamel2002/2024-world-chess-championship-analysis-empirical-synthesized-approach-98dd79920d2b"
   },
   {
-    "id": "42449647",
-    "title": "Khalid Sheldrake: The East Dulwich man who would be King",
-    "url": "https://www.nationalarchives.gov.uk/20s-people/20sstreets/khalid-sheldrake-the-east-dulwich-man-who-would-be-king/"
+    "id": "42456707",
+    "title": "Embedding Lua in Sqleibniz with Rust",
+    "url": "https://xnacly.me/posts/2024/embed-lua-in-rust/"
   },
   {
-    "id": "42457436",
-    "title": "There's No Such Thing as Software Productivity (2012)",
-    "url": "https://www.benrady.com/2012/11/theres-no-such-thing-as-software-productivity.html"
+    "id": "42460899",
+    "title": "The longest straight line in Great Britain (without crossing a public road)",
+    "url": "http://www.statsmapsnpix.com/2023/04/the-longest-straight-line-in-great.html"
+  },
+  {
+    "id": "42454405",
+    "title": "Windshield pitting incidents in Washington reach fever pitch on April 15, 1954 (2003)",
+    "url": "https://www.historylink.org/File/5136"
   }
 ]

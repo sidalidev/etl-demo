@@ -2,6 +2,10 @@ const express = require('express')
 const cors = require('cors')
 const { Client } = require('cassandra-driver')
 const fs = require('fs').promises
+const cron = require('node-cron')
+const { exec } = require('child_process')
+const { promisify } = require('util')
+const execAsync = promisify(exec)
 
 const app = express()
 app.use(express.json())
@@ -25,6 +29,9 @@ async function setupDatabase() {
     // Connexion au keyspace
     await client.execute('USE etl_data')
 
+    // Suppression de la table si elle existe
+    await client.execute('DROP TABLE IF EXISTS articles')
+
     // Création de la table
     await client.execute(`
       CREATE TABLE IF NOT EXISTS articles (
@@ -32,6 +39,10 @@ async function setupDatabase() {
         title text,
         url text,
         domain text,
+        word_count int,
+        title_length int,
+        category text,
+        is_tech boolean,
         processed_at timestamp
       )
     `)
@@ -52,7 +63,7 @@ async function loadData() {
     const data = JSON.parse(await fs.readFile('transformed_data.json', 'utf8'))
 
     const query =
-      'INSERT INTO articles (id, title, url, domain, processed_at) VALUES (?, ?, ?, ?, ?)'
+      'INSERT INTO articles (id, title, url, domain, word_count, title_length, category, is_tech, processed_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)'
 
     for (const item of data) {
       await client.execute(
@@ -62,6 +73,10 @@ async function loadData() {
           item.title,
           item.url,
           item.domain,
+          item.word_count,
+          item.title_length,
+          item.category,
+          item.is_tech,
           new Date(item.processed_at),
         ],
         { prepare: true }
@@ -85,17 +100,49 @@ app.get('/articles', async (req, res) => {
   }
 })
 
-// Initialisation
+// Pipeline ETL complet
+async function runETLPipeline() {
+  try {
+    console.log('Démarrage du pipeline ETL...')
+
+    // Extraction
+    console.log('1. Extraction...')
+    await execAsync('npm run scrape')
+
+    // Transformation
+    console.log('2. Transformation...')
+    await execAsync('python transform.py')
+
+    // Chargement
+    console.log('3. Chargement...')
+    await loadData()
+
+    console.log('Pipeline ETL terminé avec succès!')
+  } catch (error) {
+    console.error('Erreur dans le pipeline ETL:', error)
+  }
+}
+
+// Initialisation avec CRON
 async function init() {
   try {
     await client.connect()
     console.log('Connecté à Cassandra')
 
     await setupDatabase()
-    await loadData()
+
+    // Premier run du pipeline
+    await runETLPipeline()
+
+    // Configuration du CRON pour exécuter le pipeline toutes les heures
+    cron.schedule('* * * * *', () => {
+      console.log('Exécution programmée du pipeline ETL')
+      runETLPipeline()
+    })
 
     app.listen(3000, () => {
       console.log('Serveur démarré sur http://localhost:3000')
+      console.log('Le pipeline ETL s\'exécutera toutes les minutes')
     })
   } catch (error) {
     console.error("Erreur lors de l'initialisation:", error)
