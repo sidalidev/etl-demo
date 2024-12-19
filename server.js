@@ -135,7 +135,7 @@ async function init() {
     await runETLPipeline()
 
     // Configuration du CRON pour exécuter le pipeline toutes les heures
-    cron.schedule('* * * * *', () => {
+    cron.schedule('1 * * * *', () => {
       console.log('Exécution programmée du pipeline ETL')
       runETLPipeline()
     })
